@@ -1,0 +1,4 @@
+wide
+====
+
+webapplication like skype
