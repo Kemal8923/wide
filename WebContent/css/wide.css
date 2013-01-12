@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	overflow-y: scroll;
+}
+
+#header{
+	position: fixed;
+	top: 0px; 
+	left: 0px;
+	width: 100%;
+	background-color: #B7D8F6;
+	padding: 10px;
+	font-family: MV Boli;
+	font-weight: bold;
+	z-index: 2;
+}
+
+#header table{
+	width: 98%;
+}
+
+#header table td{
+	vertical-align: bottom;
+}
+
+#title{
+	font-size: 28px;
+	color: #993300;
+	width: 70px;
+}
+
+#myNick{
+	font: bold 14px Arial;
+	width: 80%;
+	text-align: right;
+}
+
+#contentWrapper{
+	height: 500px;
+	width: 900px;
+	margin: 70px auto;
+	position: relative;
+}
+
+#contacts{
+	background-color: #E6E9EC;
+	border-radius: 10px;
+	padding: 10px;
+	width: 200px;
+	height: 500px;
+	position: absolute;
+	right: 0px;
+}
+
+#chatWrapper{
+	background-color: #E6E9EC;
+	padding: 10px;
+	border-radius: 10px;
+	width: 640px;
+	height: 500px;
+}
+
+#messageInput{
+	padding: 5px;
+	font-size: 14px;
+	width: 500px;
+}
+
+#sendBtn{
+	width: 70px;
+	padding: 5px;
+	border: 2px solid #DADEE0;
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	float: left;
+	margin-right: 20px;
+}
+
+.chatScreen{
+	position: absolute;
+	left: 10px;
+	width: 640px;
+	height: 430px;
+	background-color: white;
+}
+
+.chatTabFooter{
+	position: absolute;
+	bottom: 0px;
+}
